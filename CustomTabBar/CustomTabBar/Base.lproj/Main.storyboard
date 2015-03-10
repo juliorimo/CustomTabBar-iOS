@@ -207,10 +207,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMt-H4-bh2" userLabel="Container">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="80" y="0.0" width="522" height="600"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mPx-xk-TcZ" userLabel="TabBar">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPx-xk-TcZ" userLabel="TabBar">
                                 <rect key="frame" x="0.0" y="0.0" width="80" height="600"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpU-0B-Hnl" userLabel="1">
@@ -248,18 +248,22 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="JM9-gf-Vig"/>
+                                    <constraint firstAttribute="width" constant="80" id="tKg-a0-JsW"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mPx-xk-TcZ" firstAttribute="top" secondItem="tc0-9y-GGi" secondAttribute="topMargin" id="1NT-u8-7ll"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="rMt-H4-bh2" secondAttribute="trailing" constant="-16" id="3hx-Tm-zUb"/>
-                            <constraint firstItem="igi-Gk-TkP" firstAttribute="top" secondItem="rMt-H4-bh2" secondAttribute="bottom" id="Bvk-LJ-yPP"/>
-                            <constraint firstItem="rMt-H4-bh2" firstAttribute="leading" secondItem="tc0-9y-GGi" secondAttribute="leadingMargin" constant="-16" id="IHU-A7-BWM"/>
-                            <constraint firstItem="igi-Gk-TkP" firstAttribute="top" secondItem="mPx-xk-TcZ" secondAttribute="bottom" id="tdE-Qt-XMY"/>
-                            <constraint firstItem="rMt-H4-bh2" firstAttribute="top" secondItem="6Ph-CC-u3t" secondAttribute="bottom" constant="-20" id="y3Q-YE-q0s"/>
+                            <constraint firstItem="rMt-H4-bh2" firstAttribute="top" secondItem="6Ph-CC-u3t" secondAttribute="bottom" constant="-20" id="19Y-oh-lcZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rMt-H4-bh2" secondAttribute="trailing" constant="-18" id="68w-xd-Eto"/>
+                            <constraint firstAttribute="centerY" secondItem="mPx-xk-TcZ" secondAttribute="centerY" id="EHq-U1-W5i"/>
+                            <constraint firstItem="igi-Gk-TkP" firstAttribute="top" secondItem="mPx-xk-TcZ" secondAttribute="bottom" id="Zhf-m0-dFa"/>
+                            <constraint firstItem="igi-Gk-TkP" firstAttribute="top" secondItem="mPx-xk-TcZ" secondAttribute="bottom" id="bF7-bi-5ye"/>
+                            <constraint firstItem="mPx-xk-TcZ" firstAttribute="top" secondItem="tc0-9y-GGi" secondAttribute="topMargin" id="bGU-LU-LcW"/>
+                            <constraint firstItem="rMt-H4-bh2" firstAttribute="leading" secondItem="tc0-9y-GGi" secondAttribute="leadingMargin" constant="64" id="gMF-i4-D4R"/>
+                            <constraint firstItem="mPx-xk-TcZ" firstAttribute="leading" secondItem="tc0-9y-GGi" secondAttribute="leadingMargin" constant="-16" id="o5k-MP-mGI"/>
+                            <constraint firstItem="igi-Gk-TkP" firstAttribute="top" secondItem="rMt-H4-bh2" secondAttribute="bottom" id="vfW-Ih-a4B"/>
+                            <constraint firstItem="rMt-H4-bh2" firstAttribute="top" secondItem="tc0-9y-GGi" secondAttribute="topMargin" id="xFC-vW-BLN"/>
                         </constraints>
                     </view>
                     <connections>
